@@ -88,3 +88,9 @@ Formate Hadoop
 ```
 hdfs 
 ```
+
+[7Zip](https://www.7-zip.org/download.html)
+cmd command 
+```
+tar -zxvf hadoop-3.3.5.tar.gz
+```
