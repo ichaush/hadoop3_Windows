@@ -39,7 +39,7 @@ C:\Program Files\Java\jdk1.8.0_202\bin
 ### Hadoop
 ```HADOOP_HOME```
 ```
-
+C:\Program Files\hadoop-3.3.5\bin
 ```
 
 
