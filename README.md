@@ -37,3 +37,35 @@ C:\Program Files\Java\jdk1.8.0_202\bin
 
 ## Step2
 ### [Download Hadoop Link](https://dlcdn.apache.org/hadoop/common/)
+
+``` core-site.xml ```
+```
+<property>
+ <name>fs.default.name</name>
+ <value>hdfs://localhost:9000</value>
+</property>
+``` 
+
+``` mapred-site.xml ```
+```
+<property>
+ <name>mapreduce.framework.name</name>
+ <value>yarn</value>
+</property>
+```
+
+``` hdfs-site.xml ```
+```
+<property>
+  <name>dfs.replication</name>
+  <value>1</value>
+ </property>
+ <property>
+  <name>dfs.namenode.name.dir</name>
+  <value>file:///C:/hadoop-3.3.5/data/namenode</value>
+ </property>
+ <property>
+  <name>dfs.datanode.data.dir</name>
+  <value>/C:/hadoop-3.3.5/data/datanode</value>
+ </property>
+```
