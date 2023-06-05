@@ -22,20 +22,18 @@ echo %JAVA_HOME%
 C:\Program Files\Java\jdk1.8.0_202
 ```
 
+```in path```
+
+```System Variables path new ```
 ```
 C:\Program Files\Java\jdk1.8.0_202\bin
 ```
-
-in path
-
-System Variables path new 
-```
-C:\Program Files\Java\jdk1.8.0_202\bin
-```
-
 
 [Java](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 
 ### You need free account create one
 
 [Login](https://login.oracle.com/mysso/signon.jsp)
+
+## Step2
+### [Download Hadoop Link](https://dlcdn.apache.org/hadoop/common/)
