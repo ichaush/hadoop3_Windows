@@ -1,9 +1,17 @@
 # Hadoop 3 On Windows
 ## Step1
-### Install Java 
+### Install Java & set environment variable for Java And Hadoop
 
 Open the command prompt: Press the Windows key + R to open the Run dialog box. Type "cmd" and press Enter to open the command prompt.
 Check the Java version: In the command prompt, type the following command and press Enter:
+
+[Java](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
+
+### You need free account create one
+
+[Login](https://login.oracle.com/mysso/signon.jsp)
+
+### Java
 
 ```
 java -version
@@ -28,12 +36,13 @@ C:\Program Files\Java\jdk1.8.0_202
 ```
 C:\Program Files\Java\jdk1.8.0_202\bin
 ```
+### Hadoop
+```HADOOP_HOME```
+```
 
-[Java](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
+```
 
-### You need free account create one
 
-[Login](https://login.oracle.com/mysso/signon.jsp)
 
 ## Step2
 ### [Download Hadoop Link](https://dlcdn.apache.org/hadoop/common/)
@@ -68,4 +77,14 @@ C:\Program Files\Java\jdk1.8.0_202\bin
   <name>dfs.datanode.data.dir</name>
   <value>/C:/hadoop-3.3.5/data/datanode</value>
  </property>
+```
+
+``` hadoop-env.cmd```
+```
+set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_202
+
+```
+Formate Hadoop
+```
+hdfs 
 ```
