@@ -15,7 +15,13 @@ echo %JAVA_HOME%
 ```
 where java
 ```
+```JAVA_HOME```
+```C:\Program Files\Java\jdk1.8.0_202\bin```
 
+in path
+```
+C:\Program Files\Java\jdk1.8.0_202\bin
+```
 
 [Java](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 
