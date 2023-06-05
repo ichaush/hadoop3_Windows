@@ -78,6 +78,17 @@ C:\Program Files\hadoop-3.3.5\bin
   <value>/C:/hadoop-3.3.5/data/datanode</value>
  </property>
 ```
+``` yarn-site.xml ```
+```
+<property>
+ <name>yarn.nodemanager.aux-services</name>
+ <value>mapreduce_shuffle</value>
+</property>
+<property>
+  <name>yarn.nodemanager.auxservices.mapreduce.shuffle.class</name>
+  <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+</property>
+```
 
 ``` hadoop-env.cmd```
 ```
