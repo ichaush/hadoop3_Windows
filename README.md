@@ -41,6 +41,9 @@ C:\Program Files\Java\jdk1.8.0_202\bin
 ```
 C:\Program Files\hadoop-3.3.5\bin
 ```
+```
+C:\Program Files\hadoop-3.3.5
+```
 
 
 
