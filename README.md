@@ -2,6 +2,8 @@
 ## Step1
 ### Install Java & set environment variable for Java And Hadoop
 
+[JAVA Download](https://www.oracle.com/java/)
+
 Open the command prompt: Press the Windows key + R to open the Run dialog box. Type "cmd" and press Enter to open the command prompt.
 Check the Java version: In the command prompt, type the following command and press Enter:
 
